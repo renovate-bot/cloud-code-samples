@@ -10,7 +10,7 @@ val mainClassName = "ReadPubsubWriteBigQuery"
 
 val autoValueVersion = "1.10"
 val beamVersion = "2.45.0"
-val jupiterVersion = "5.9.0"
+val jupiterVersion = "6.1.3"
 val mockitoVersion = "5.1.1"
 val slf4jVersion = "1.7.32"
 
