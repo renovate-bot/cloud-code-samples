@@ -1,8 +1,8 @@
-FROM mcr.microsoft.com/dotnet/aspnet:7.0-alpine AS base
+FROM mcr.microsoft.com/dotnet/aspnet:11.0-alpine AS base
 WORKDIR /src
 EXPOSE 80
 
-FROM mcr.microsoft.com/dotnet/sdk:7.0-alpine AS build
+FROM mcr.microsoft.com/dotnet/sdk:11.0-alpine AS build
 WORKDIR /src
 COPY . .
 RUN dotnet restore helloworld.csproj
