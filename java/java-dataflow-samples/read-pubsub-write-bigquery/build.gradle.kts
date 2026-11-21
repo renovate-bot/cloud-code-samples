@@ -1,6 +1,6 @@
 plugins {
     application
-    id("com.diffplug.spotless") version "6.8.0"
+    id("com.diffplug.spotless") version "8.12.0"
 }
 
 group = "com.cloudcode.dataflow"
